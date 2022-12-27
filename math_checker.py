@@ -21,28 +21,30 @@ else:
 
     first_number = int(input('Type the first number: '))
     second_number = int(input('Type the second number: '))
+    print("\n", first_number, operation, second_number, " = ?\n")
     your_answer = int(input('What was your answer: '))
 
+    problem_set = print("\n",first_number, operation, second_number, ":") 
 
     if operation == '+':
         math_answer = first_number + second_number
-        print(first_number, operation, second_number)
+        problem_set
 
     elif operation == '-':
         math_answer = first_number - second_number
-        print(first_number, operation, second_number)
+        problem_set
 
     elif operation == '*':
         math_answer = first_number * second_number
-        print(first_number, operation, second_number)
+        problem_set
 
     elif operation == '/':
         math_answer = first_number / second_number
-        print(first_number, operation, second_number)
+        problem_set
 
 
     if your_answer == math_answer:
-        print("\n The Answer is :", math_answer, "\n Great Job", kids_name, "!\n You get: *****")
+        print("\n The Answer is :", math_answer, "\n Great Job", kids_name, "!\n You get: ***** \n")
 
     else:
         print("\nYour answer is wrong, try again...\n")
@@ -57,5 +59,5 @@ else:
             if your_answer == math_answer:
                 print("\n The answer is:", math_answer,"\nGreat Job Bud, you got it!\n")
             else:
-                print("\n Not correct. It's OK.\n Please get help and then re-enter your\
+                print("\n Not correct. It's OK.\n Please get help and then re-enter your \
 variables and try again. \n You Got This!")
