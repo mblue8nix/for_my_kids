@@ -19,7 +19,7 @@ if (operation !='+' and operation !='-' and operation!='*' and operation!='/'):
 
 else:
 
-    first_number = int(input('Type the first number: '))
+    first_number = int(input('\nType the first number: '))
     second_number = int(input('Type the second number: '))
     print("\n", first_number, operation, second_number, " = ?\n")
     your_answer = int(input('What was your answer: '))
@@ -51,7 +51,7 @@ else:
         your_answer = int(input('Enter your new answer: '))
 
         if your_answer == math_answer:
-            print("\n The answer is:", math_answer, "\nGreat Job, you got it!\n")
+            print("\nThe answer is:", math_answer, "\nGreat Job, you got it!\n")
         else:
             print("\nNot correct. You have one more try!\n")
             your_answer = int(input('Enter your new answer: '))
